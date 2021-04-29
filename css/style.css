@@ -1,0 +1,140 @@
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+body {
+	width: 1200px;
+}
+header{
+	width: 1200px;
+	height: 715px;
+	background-color: #88abe3;
+}
+nav .logo-img {
+	margin-top: 40px;
+	margin-left: 100px;
+	padding-top: 39px;
+	color: #fff;
+}
+.input {
+	background: #FFFFFF;
+	border: 1px solid #D9D9D9;
+	border-radius: 2px;
+	font-size: 16px;
+	line-height: 24px;
+/*	padding: 8px;*/
+	background-repeat: no-repeat;
+	background-position: left 10px center;
+	padding-left: 12px;
+}
+.input-address {
+	flex: 0.65;
+/*	background-image: url(../img/home.svg);*/
+}
+.nav-list {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-left: 265px;
+	margin-right: 100px; 
+	margin-top: -46px;
+}
+.nav-list a{
+	text-decoration: none;
+	/*display: block;*/
+	color: #302C34;
+	font-size: 15px;
+	line-height: 26px;
+	font-family: Verdana;
+
+}
+.header-text h1{
+	font-size: 50px;
+	line-height: 62px;
+	margin-left: 160px;
+	margin-top: 104px;
+	font-style: normal;
+	color: #302C34;
+	font-family: Courier New;
+	font-weight: 550;
+}
+.header-text p{
+	font-size: 20px;
+	line-height: 30px;	
+	color: #302C34;
+	margin-left: 160px;
+	margin-top: 90px;
+	font-family: Verdana;
+	font-size: 14pt;	
+}
+.header-img{
+	width: 460px;
+	height: 345px;
+	margin-left: 650px;
+	margin-bottom: 400px;
+	margin-top: -345px;
+	border-radius: 90px;
+}
+.types {
+	font-family: Verdana;
+	font-size: 14pt;
+	padding-top: 30px;
+	background-color: #D1B6A8;
+}
+.types-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.base {
+	font-family: Verdana;
+	font-size: 14pt;
+	background-color: #88abe3;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+.base-list{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+.base-list img {
+	border-radius: 15px;
+}
+.problems {
+	background-color: #D1B6A8;
+	padding: 30px;
+	font-family: Verdana;
+	font-size: 14pt;
+}
+.conclusion {
+	background-color: #88abe3;
+	font-family: Verdana;
+	font-size: 14pt;
+	padding: 30px;
+}
+.footer {
+	height: 72px;
+	background-color: #0B0D17;
+	color: #D9DBE1;
+}
+.footer-container {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text {
+	margin-top: 24px;
+	font-size: 14px;
+	font-family: Verdana;
+	font-size: 12pt;
+}
+.footer-icons {
+	display: flex;
+}
+.footer-icon {
+	margin-top: 19px;
+	margin-left: 16px;
+}
